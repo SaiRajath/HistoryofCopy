@@ -20,6 +20,7 @@ body{
 .see{
      width: 100px;
      height: 100px;
+     padding-bottom: 20px;
  }
 
  .head1{ 
@@ -97,6 +98,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    text-align:center;
  }
  .content3{
     font-size: 18px;
@@ -104,6 +106,7 @@ body{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    text-align:center;
     color: hsl(171, 66%, 44%);
  }
 
@@ -162,6 +165,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    text-align: center;
  }
  .content6{
     font-size: 18px;
@@ -169,6 +173,7 @@ body{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
     color: hsl(171, 66%, 44%);
  }
 
@@ -180,6 +185,7 @@ body{
  .image4{
     width: 50px;
  }
+ /*
  .head7{
     font-size: 18px;
     font-weight: 600px;
@@ -194,7 +200,7 @@ body{
     display: flex;
     justify-content: center;
     color: hsl(171, 66%, 44%);
- }
+ }*/
 
  .list{
     margin-top: 80px ;
@@ -213,6 +219,7 @@ body{
     margin-top: 80px;
     display: flex;
     justify-content: center;
+    text-align: center;
  }
  .content8{
     font-size: 18px;
@@ -220,11 +227,12 @@ body{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
     color: hsl(171, 66%, 44%);
  }
 
  .form2{
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -265,6 +273,10 @@ body{
     padding: 40px 2px;
     width: 50px;
  }
+
+ ul{
+    list-style: none;
+ }
  .detail{
     text-align: center;
     font-size: 18px;
@@ -276,3 +288,122 @@ body{
     letter-spacing: 40px;
     padding-bottom: 50px;
 }
+
+@media screen and (min-width: 1300px){
+   .back_image{
+      background-image: none;
+   }
+   .back_desk{
+      background-image:url(bg-header-desktop.png);
+      height: 35vh;
+      background-size: cover; 
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+   }
+   .see{
+      width: 150px;
+      height: 150px;
+      padding-bottom: 20px;  
+  }
+  .look{
+   min-width: 1300px;
+  }
+  .look1{
+     min-width: 600px;
+  }
+  .form1{
+      margin-bottom: 150px;
+   }
+   .image1{
+   width: 700px;
+   height:500px;
+   padding-left: 40px;
+   }
+   .picture1{
+   margin-top: 60px;
+  text-align: left;
+   }
+   .handler1{
+   float: left; 
+   margin-right: 100px; 
+   }
+   .handler2{
+  text-align: left;
+  padding-top: 20px;
+   }
+   .head3{
+   display: flex;
+   justify-content: left;
+   align-items: flex-start;
+   text-align: left;
+   }
+   .content3{
+   display: flex;
+   justify-content: left;
+   align-items: flex-start;
+   text-align: left;
+   }
+   .looks1{
+   min-width: 400px;
+   }
+   .picture2{
+      margin-top: 80px; 
+   }
+   .image2{
+      width: 800px;
+   }
+   .head4{
+      margin-top: 200px;
+   }
+   
+   .lk1{
+      min-width: 450px;
+   }
+   .home{
+      display: flex; 
+      justify-content: center;
+      align-items: flex-end;
+      text-align: center;
+   }
+   .list{
+      margin-top: 200px ;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+   .head8{
+      margin-top: 200px;
+   }
+  .lk2{
+     min-width: 550px;
+  }
+  .arrg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .detail{
+   margin-left: 70px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   width: 500px;
+   column-gap: 100px;
+   flex-wrap: wrap;  
+  }
+   .last-logo{
+   padding-top: 20px
+   width: 60px;
+   }
+
+  .ele2{
+     margin-left: 150px;
+     min-width: 800px;
+  }  
+}
+
+
+
+
+
